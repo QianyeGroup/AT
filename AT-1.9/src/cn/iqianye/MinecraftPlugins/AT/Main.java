@@ -125,23 +125,23 @@ public class Main extends JavaPlugin implements Listener {
 								switch (sound) {
 								case 1:
 									target.playSound(target.getLocation(),
-											Sound.LEVEL_UP, 1.0F, 1.0F);
+											Sound.ENTITY_PLAYER_LEVELUP, 1.0F, 1.0F);
 									break;
 								case 2:
 									target.playSound(target.getLocation(),
-											Sound.EXPLODE, 1.0F, 1.0F);
+											Sound.ENTITY_GENERIC_EXPLODE, 1.0F, 1.0F);
 									break;
 								case 3:
 									target.playSound(target.getLocation(),
-											Sound.GHAST_SCREAM, 1.0F, 1.0F);
+											Sound.ENTITY_GHAST_SCREAM, 1.0F, 1.0F);
 									break;
 								case 4:
 									target.playSound(target.getLocation(),
-											Sound.FIREWORK_TWINKLE, 1.0F, 1.0F);
+											Sound.ENTITY_FIREWORK_TWINKLE, 1.0F, 1.0F);
 									break;
 								case 5:
 									target.playSound(target.getLocation(),
-											Sound.WITHER_IDLE, 1.0F, 1.0F);
+											Sound.ENTITY_WITHER_DEATH, 1.0F, 1.0F);
 									break;
 								default:
 									player.sendMessage(prefix + ChatColor.GREEN
@@ -180,23 +180,23 @@ public class Main extends JavaPlugin implements Listener {
 									switch (sound) {
 									case 1:
 										target.playSound(target.getLocation(),
-												Sound.LEVEL_UP, 1.0F, 1.0F);
+												Sound.ENTITY_PLAYER_LEVELUP, 1.0F, 1.0F);
 										break;
 									case 2:
 										target.playSound(target.getLocation(),
-												Sound.EXPLODE, 1.0F, 1.0F);
+												Sound.ENTITY_GENERIC_EXPLODE, 1.0F, 1.0F);
 										break;
 									case 3:
 										target.playSound(target.getLocation(),
-												Sound.GHAST_SCREAM, 1.0F, 1.0F);
+												Sound.ENTITY_GHAST_SCREAM, 1.0F, 1.0F);
 										break;
 									case 4:
 										target.playSound(target.getLocation(),
-												Sound.FIREWORK_TWINKLE, 1.0F, 1.0F);
+												Sound.ENTITY_FIREWORK_TWINKLE, 1.0F, 1.0F);
 										break;
 									case 5:
 										target.playSound(target.getLocation(),
-												Sound.WITHER_IDLE, 1.0F, 1.0F);
+												Sound.ENTITY_WITHER_DEATH, 1.0F, 1.0F);
 										break;
 									default:
 										player.sendMessage(prefix + ChatColor.GREEN
