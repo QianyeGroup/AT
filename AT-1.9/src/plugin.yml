@@ -1,6 +1,10 @@
 name: AT
 main: cn.iqianye.MinecraftPlugins.AT.Main
+<<<<<<< HEAD
 version: 1.1-beta(MC1.9)
+=======
+version: 1.1-beta(MC1.9-1.12)
+>>>>>>> 47c8664c92f831aa8e554d964a42416b20cac912
 author: 真心
 description: §a让MC可以像QQ群一样可以@别人 §c原作者： Brian & fyfly & nFeng & connection_lost
 commands:
