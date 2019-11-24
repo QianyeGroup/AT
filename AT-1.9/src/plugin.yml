@@ -4,6 +4,6 @@ version: 1.1-beta(MC1.9)
 author: 真心
 description: §a让MC可以像QQ群一样可以@别人 §c原作者： Brian & fyfly & nFeng & connection_lost
 commands:
-   at:
-      description: help
-      usage: /at
+  at:
+    description: help
+    usage: /at
