@@ -1,5 +1,5 @@
 # AT
-![](https://ci.zhenxin.xyz/job/Minecraft/job/AT/badge/icon?build=last)
+[![Build Status](https://ci.zhenxin.xyz/buildStatus/icon?job=Minecraft%2FAT)](https://ci.zhenxin.xyz/job/Minecraft/job/AT/)
 
 #### 介绍
 让MC可以像QQ群一样可以@别人
